@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "email": "graham@gmail.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "email": "hawell@gmail.com",
+      "phone": "010-692-6593"
+    },
+    {
+      "id": "3",
+      "name": "Patricia Lebsack",
+      "email": "lebsack@gmail.com",
+      "phone": "493-170-9623"
+    },
+    {
+      "id": "4",
+      "name": "Nicholas Runolfs",
+      "email": "nichR@gmail.com",
+      "phone": "024-648-3804"
+    }
+  ]
+}

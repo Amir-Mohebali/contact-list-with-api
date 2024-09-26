@@ -1,0 +1,53 @@
+.item {
+    width: 100%;
+    background-color: #b4b4b4;
+    padding: 5px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.item .info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.item .info::-webkit-scrollbar {
+    display: none;
+}
+
+.item h5 {
+    flex: 1;
+    color: #303030;
+    margin: 8px 0;
+}
+
+.item p {
+    flex: 1;
+    font-size: 14px;
+    color: #484848;
+}
+
+.item .controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #f40157;
+}
+
+.item .controls a {
+    color: #f40157;
+    display: flex;
+    align-items: center;
+}
+
+.item .controls svg {
+    cursor: pointer;
+}

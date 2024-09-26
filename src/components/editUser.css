@@ -1,0 +1,49 @@
+.updateForm {
+    width: clamp(360px, 70%, 500px);
+    background-color: #b4b4b4;
+    padding: 15px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.updateForm .input-box {
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.updateForm .input-name,
+.updateForm .input-email,
+.updateForm .input-phone {
+    flex: 1;
+    outline: none;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.updateForm .input-name:focus,
+.updateForm .input-email:focus,
+.updateForm .input-phone:focus {
+    border-color: #424242;
+}
+
+.updateForm .btn-submit {
+    flex: 1;
+    margin-bottom: 10px;
+    background: #f40157;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
